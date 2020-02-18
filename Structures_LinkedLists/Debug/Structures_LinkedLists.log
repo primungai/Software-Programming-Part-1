@@ -1,0 +1,25 @@
+﻿  main.c
+c:\users\priscilla\source\repos\structures_linkedlists\structures_linkedlists\integerlist.h(7): warning C4091: 'typedef ': ignored on left of 'IntegerElement' when no variable is declared
+c:\users\priscilla\source\repos\structures_linkedlists\structures_linkedlists\main.c(54): warning C4013: 'mallocc' undefined; assuming extern returning int
+c:\users\priscilla\source\repos\structures_linkedlists\structures_linkedlists\main.c(70): warning C4013: 'addElemetToTail' undefined; assuming extern returning int
+c:\users\priscilla\source\repos\structures_linkedlists\structures_linkedlists\main.c(54): warning C4047: 'initializing': 'IntegerList *' differs in levels of indirection from 'int'
+c:\users\priscilla\source\repos\structures_linkedlists\structures_linkedlists\main.c(115): warning C4473: 'scanf' : not enough arguments passed for format string
+  c:\users\priscilla\source\repos\structures_linkedlists\structures_linkedlists\main.c(115): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  c:\users\priscilla\source\repos\structures_linkedlists\structures_linkedlists\main.c(115): note: the missing variadic argument 1 is required by format string '%d'
+c:\users\priscilla\source\repos\structures_linkedlists\structures_linkedlists\main.c(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\priscilla\source\repos\structures_linkedlists\structures_linkedlists\main.c(115): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: see declaration of 'scanf'
+c:\users\priscilla\source\repos\structures_linkedlists\structures_linkedlists\main.c(134): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: see declaration of 'scanf'
+c:\users\priscilla\source\repos\structures_linkedlists\structures_linkedlists\main.c(146): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: see declaration of 'scanf'
+c:\users\priscilla\source\repos\structures_linkedlists\structures_linkedlists\main.c(148): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: see declaration of 'scanf'
+c:\users\priscilla\source\repos\structures_linkedlists\structures_linkedlists\main.c(150): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: see declaration of 'scanf'
+c:\users\priscilla\source\repos\structures_linkedlists\structures_linkedlists\main.c(163): warning C4716: 'main_forPoint2D_ArrayCollection': must return a value
+c:\users\priscilla\source\repos\structures_linkedlists\structures_linkedlists\main.c(119): warning C4700: uninitialized local variable 'nbPoints' used
+main.obj : error LNK2019: unresolved external symbol _mallocc referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _addElemetToTail referenced in function _main
+C:\Users\Priscilla\source\repos\Structures_LinkedLists\Debug\Structures_LinkedLists.exe : fatal error LNK1120: 2 unresolved externals
