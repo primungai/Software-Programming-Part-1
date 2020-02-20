@@ -134,7 +134,7 @@ int main_forPoint2D_ArrayCollection()
 	scanf("%d", &nbPoints);
 
 	// Array of Point2D*: each item of the array is a pointer towards a 
-	// dynamically allocated Point2D
+	// dynamically allocated Point2D i.e, the data type inside each unit of the array
 	Point2D** pPointCollection = malloc(sizeof(Point2D*) * nbPoints);
 	for (int i = 0; i < nbPoints; i++)
 	{
